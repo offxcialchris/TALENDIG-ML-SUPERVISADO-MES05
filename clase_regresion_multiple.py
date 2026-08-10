@@ -33,7 +33,7 @@ modelo.fit(X_train, y_train)
 print("Coeficientes:")
 for nombre, coef in zip(X.columns, modelo.coef_):
     print(f"{nombre}: {round(coef, 2)}")
-print("Intercepto: ", round(modelo.intercept_, 2))
+    print("Intercepto: ", round(modelo.intercept_, 2))
 
 # Metricas es un metodo de evaluacion para el modelo
 
